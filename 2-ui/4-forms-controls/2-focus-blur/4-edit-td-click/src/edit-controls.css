@@ -1,0 +1,17 @@
+.cell-editing {
+	position: relative;
+	padding: 0;
+}
+
+.cell-editing .edit-input {
+	border: none;
+	margin: 0;
+	padding: 0;
+	display: block;
+
+	/* удаляем обводку при фокусировке в Chrome */
+	outline: none;
+
+	/* удаляем полосу прокрутки в IE */
+	overflow: auto;
+}
